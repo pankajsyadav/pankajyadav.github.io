@@ -1,0 +1,17 @@
+title: Pankaj K. Yadav
+email: your-email@example.com
+description: Data Science & Analytics Portfolio
+baseurl: ""
+url: "https://pankajk-yadav.com"
+github_username: your-github
+linkedin_username: your-linkedin
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Jekyll settings
+markdown: kramdown
+permalink: /:title/
