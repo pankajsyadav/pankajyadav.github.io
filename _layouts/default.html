@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} - Pankaj K. Yadav</title>
   <meta name="description" content="Portfolio - Data Science, Analytics & Machine Learning Professional">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style-dark.css' | relative_url }}">
   <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
 </head>
 <body>
@@ -16,6 +16,7 @@
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#insights">Insights</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -39,6 +40,21 @@
       <span class="badge">Business Intelligence</span>
     </div>
     
+    <div class="stats-container">
+      <div class="stat-item">
+        <span class="stat-number">15+</span>
+        <span class="stat-label">Years Experience</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">$6M</span>
+        <span class="stat-label">NPV Savings</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">100K+</span>
+        <span class="stat-label">Transactions Analyzed</span>
+      </div>
+    </div>
+    
     <a href="#about" class="cta-button">Explore More</a>
   </section>
 
@@ -47,10 +63,10 @@
     <h2>About Me</h2>
     
     <div class="experience-timeline">
-      <h3 style="font-size: 1.8rem; margin-bottom: 2rem; color: #333;">Work Experience</h3>
+      <h3 style="font-size: 1.8rem; margin-bottom: 2rem;">💼 Work Experience</h3>
       
       <div class="experience-item">
-        <div class="experience-title">Senior Analyst</div>
+        <div class="experience-title">🏦 Senior Analyst</div>
         <div class="experience-company">USAA Federal Savings Bank</div>
         <div class="experience-date">September 2022 - Present | San Antonio, TX</div>
         <div class="experience-description">
@@ -64,7 +80,7 @@
       </div>
 
       <div class="experience-item">
-        <div class="experience-title">Technical Lead – Business Intelligence & Data Analytics</div>
+        <div class="experience-title">💻 Technical Lead – Business Intelligence & Data Analytics</div>
         <div class="experience-company">HCL Technologies (Contracted to USAA)</div>
         <div class="experience-date">October 2015 - September 2022 | San Antonio, TX</div>
         <div class="experience-description">
@@ -76,7 +92,7 @@
       </div>
 
       <div class="experience-item">
-        <div class="experience-title">Senior Software Engineer – Actuarial & Claims Analytics</div>
+        <div class="experience-title">🚀 Senior Software Engineer – Actuarial & Claims Analytics</div>
         <div class="experience-company">Larsen & Toubro Infotech (Contract to Travelers Insurance)</div>
         <div class="experience-date">June 2010 - September 2015 | St. Paul, MN</div>
         <div class="experience-description">
@@ -93,7 +109,7 @@
     <!-- Skills Section -->
     <div class="skills-section">
       <div class="skill-category">
-        <h3>Programming & Analytics</h3>
+        <h3>🐍 Programming & Analytics</h3>
         <div class="skill-list">
           <span class="skill-item">SAS (Base/Macros/Graph)</span>
           <span class="skill-item">SQL</span>
@@ -106,7 +122,7 @@
       </div>
 
       <div class="skill-category">
-        <h3>Data Platforms & Databases</h3>
+        <h3>☁️ Data Platforms & Databases</h3>
         <div class="skill-list">
           <span class="skill-item">Snowflake</span>
           <span class="skill-item">Teradata</span>
@@ -118,7 +134,7 @@
       </div>
 
       <div class="skill-category">
-        <h3>Visualization & BI Tools</h3>
+        <h3>📊 Visualization & BI Tools</h3>
         <div class="skill-list">
           <span class="skill-item">Tableau</span>
           <span class="skill-item">SAS Visual Analytics</span>
@@ -129,7 +145,7 @@
       </div>
 
       <div class="skill-category">
-        <h3>Risk & Compliance</h3>
+        <h3>🛡️ Risk & Compliance</h3>
         <div class="skill-list">
           <span class="skill-item">Regulatory Reporting</span>
           <span class="skill-item">Risk Monitoring (KRI)</span>
@@ -142,7 +158,7 @@
 
     <!-- Education Section -->
     <div style="margin-top: 3rem;">
-      <h3 style="font-size: 1.8rem; margin-bottom: 2rem; color: #333;">Education</h3>
+      <h3 style="font-size: 1.8rem; margin-bottom: 2rem;">🎓 Education</h3>
       
       <div class="education-item">
         <h4>Master of Science in Data Science</h4>
@@ -163,6 +179,116 @@
     <!-- Resume Download -->
     <div class="resume-download">
       <a href="{{ '/assets/resume/Pankaj_K_Yadav_Resume.pdf' | relative_url }}" class="cta-button" download>Download Resume</a>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>🚀 My Projects</h2>
+    
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+        <div class="project-content">
+          <h3 class="project-title">Regulatory Reporting Automation</h3>
+          <p class="project-description">Built end-to-end automated reporting framework for federal compliance, achieving 100% accuracy and reducing manual effort by 3 FTE. Integrated Snowflake, SAS, and Tableau for seamless data flow.</p>
+          <div class="project-tech">
+            <span class="tech-tag">SAS</span>
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">Snowflake</span>
+            <span class="tech-tag">Tableau</span>
+            <span class="tech-tag">Python</span>
+          </div>
+          <div class="project-links">
+            <a href="#contact" class="project-link">Contact for Details →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+        <div class="project-content">
+          <h3 class="project-title">Risk Monitoring Framework</h3>
+          <p class="project-description">Engineered sophisticated risk monitoring system using all-lines data to establish automated KRI thresholds, identifying million-dollar borrower exposures and improving risk detection.</p>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Teradata</span>
+            <span class="tech-tag">KRI</span>
+            <span class="tech-tag">Risk Analytics</span>
+          </div>
+          <div class="project-links">
+            <a href="#contact" class="project-link">Contact for Details →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+        <div class="project-content">
+          <h3 class="project-title">Cost-Benefit Analysis Platform</h3>
+          <p class="project-description">Led development of comprehensive cost-benefit modeling framework that captured $6M in NPV savings through rigorous quantitative analysis and scenario modeling.</p>
+          <div class="project-tech">
+            <span class="tech-tag">Excel VBA</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Financial Modeling</span>
+            <span class="tech-tag">R</span>
+          </div>
+          <div class="project-links">
+            <a href="#contact" class="project-link">Contact for Details →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"></div>
+        <div class="project-content">
+          <h3 class="project-title">Interactive KPI Dashboards</h3>
+          <p class="project-description">Designed and deployed Tableau dashboards translating 100K+ transactions into 10+ actionable KPI visualizations for executive decision-making and performance tracking.</p>
+          <div class="project-tech">
+            <span class="tech-tag">Tableau</span>
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">Data Visualization</span>
+            <span class="tech-tag">SAS</span>
+          </div>
+          <div class="project-links">
+            <a href="#contact" class="project-link">Contact for Details →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+        <div class="project-content">
+          <h3 class="project-title">Legacy System Migration</h3>
+          <p class="project-description">Revolutionized system maintainability by migrating legacy mainframe frameworks to modern SAS/SQL architecture, boosting processing efficiency by 20% and reducing maintenance costs.</p>
+          <div class="project-tech">
+            <span class="tech-tag">SAS</span>
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">Mainframe</span>
+            <span class="tech-tag">ETL</span>
+          </div>
+          <div class="project-links">
+            <a href="#contact" class="project-link">Contact for Details →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);"></div>
+        <div class="project-content">
+          <h3 class="project-title">Actuarial Claims Analytics</h3>
+          <p class="project-description">Developed automated KPI/KRI scorecards and "Large Loss" reporting system to isolate claims outliers, supporting actuarial decision-making with advanced statistical analysis.</p>
+          <div class="project-tech">
+            <span class="tech-tag">SAS</span>
+            <span class="tech-tag">Statistical Analysis</span>
+            <span class="tech-tag">Insurance Analytics</span>
+            <span class="tech-tag">SQL</span>
+          </div>
+          <div class="project-links">
+            <a href="#contact" class="project-link">Contact for Details →</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
