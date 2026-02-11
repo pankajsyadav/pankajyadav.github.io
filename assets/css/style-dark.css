@@ -151,7 +151,7 @@ h2 {
 
 .hero-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 60px;
   max-width: 1200px;
 }
