@@ -551,6 +551,7 @@ h2 {
   gap: 2rem;
   margin-bottom: 2rem;
   max-width: 100%;
+  justify-items: center;
 }
 
 .carousel-grid:has(.carousel-card:only-child) {
@@ -558,6 +559,7 @@ h2 {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  justify-items: stretch;
 }
 
 .carousel-card {
