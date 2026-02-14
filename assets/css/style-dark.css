@@ -538,6 +538,11 @@ h2 {
   background: var(--bg-primary);
 }
 
+.insights-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .carousel-title {
   font-size: 1.5rem;
   margin-bottom: 2rem;
@@ -667,6 +672,7 @@ h2 {
 .timeline {
   position: relative;
   padding: 0;
+  max-width: 100%;
 }
 
 .timeline::before {
