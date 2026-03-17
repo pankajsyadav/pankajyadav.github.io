@@ -3,7 +3,7 @@ layout: post
 title: "Understanding ETL Pipeline Optimization"
 date: 2026-02-09
 excerpt: "A deep dive into optimizing ETL pipelines using AWS Glue and Databricks"
-image: "https://via.placeholder.com/400x250?text=ETL+Optimization"
+image: /assets/images/etl.png
 ---
 
 In this post, we'll explore the fundamentals of ETL pipeline optimization and how to achieve 40% runtime reduction.
